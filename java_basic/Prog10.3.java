@@ -3,7 +3,7 @@ package test1;
 import java.util.List;
 import java.util.Scanner;
 
-public class Poly_Main 
+public class Poly_Main //Q.10
 {
 	public static void main(String[] args)
 	{
