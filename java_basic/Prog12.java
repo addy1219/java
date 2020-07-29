@@ -9,24 +9,20 @@ public class Complex //Q.12
 		this.a = a;
 		this.b = b;
 	}
-	public static Complex addition(Complex c1,Complex c2)
+	public static int addition(Complex c)
 	{
-		Complex c = new Complex(0,0);
-		c.a = c1.a+c2.a;
-		c.b = c1.b+c2.b;
-		return c;
+		int co = c.a+c.b;
+		return co;
 	}
-	public static Complex substraction(Complex c1,Complex c2)
+	public static int substraction(Complex c)
 	{
-		Complex c = new Complex(0,0);
-		c.a = c1.a-c2.a;
-		c.b = c1.b-c2.b;
-		return c;
+		int co = c.a-c.b;
+		return co;
 	}
-	public static void display(Complex c1,Complex c2,Complex add,Complex sub)
+	public static void display(Complex c,int add,int sub)
 	{
-		System.out.println("Sum of: "+ c1.a+"i & "+ c2.a +"i is :"+add+"i");
-		System.out.println("Diff of: "+ c1.b+"i & "+ c2.b +"i is :"+sub+"i");
+		System.out.println("Sum of: "+ c.a +"i & "+ c.b +"i is :"+add+"+i");
+		System.out.println("Diff of: "+ c.a+"i & "+ c.b +"i is :"+sub+"+i");
 	}
 	@Override
 	public String toString()
@@ -35,10 +31,9 @@ public class Complex //Q.12
 	}
 	public static void main(String[] args)
 	{
-		Complex c1 = new Complex(8,5);
-		Complex c2 = new Complex(2,4);
-		   Complex add = addition(c1,c2);
-		   Complex sub = substraction(c1,c2);
-		                display(c1,c2,add,sub);
+		Complex c = new Complex(2,1);
+		   int add = addition(c);
+		   int sub = substraction(c);
+		                display(c,add,sub);
 	}
 }
