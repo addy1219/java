@@ -1,0 +1,46 @@
+[
+{
+        "id": 10,
+        "firstName": "John",
+        "lastName": "Verma",
+        "dob": 2000,
+        "email": "john@rzt.com",
+        "address": "Delhi",
+        "phone": 6231167890
+},
+{
+        "id": 20,
+        "firstName": "Aditya",
+        "lastName": "Srivastava",
+        "dob": 1996,
+        "email": "aditya@rzt.com",
+        "address": "Bangalore",
+        "phone": 7873588921
+},
+{
+        "id": 30,
+        "firstName": "Ashish",
+        "lastName": "Srivastava",
+        "dob": 2000,
+        "email": "ashish@rzt.com",
+        "address": "Bangalore",
+        "phone": 9583320908
+},
+{
+        "id": 40,
+        "firstName": "Adarsh",
+        "lastName": "Verma",
+        "dob": 2002,
+        "email": "adarsh@rzt.com",
+        "address": "Bangalore",
+        "phone": 6231167890
+},
+{
+        "id": 50,
+        "firstName": "Addy",
+        "lastName": "Verma",
+        "dob": 2002,
+        "email": "addy@rzt.com",
+        "address": "Delhi",
+        "phone": 6231444490
+}]
